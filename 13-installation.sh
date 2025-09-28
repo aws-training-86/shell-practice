@@ -24,6 +24,6 @@ dnf install nginx -y
 
 VALIDATE $? "Nginx"
 
-dnf install mongodb-mangosh -y
+dnf install python3 -y
 
-VALIDATE $? "mangosh"
+VALIDATE $? "python3"
